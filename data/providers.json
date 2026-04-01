@@ -1,0 +1,131 @@
+{
+  "site": "中国优化VPS导航",
+  "baseUrl": "https://cn2-vps.github.io",
+  "version": "1.0.0",
+  "createdAt": "2026-03-27",
+  "providers": [
+    {
+      "id": "rainyun",
+      "name": "雨云",
+      "page": "/vps/rainyun.html",
+      "affLink": "https://www.rainyun.com/2026off_",
+      "category": "国内厂商",
+      "monthlyPrice": "¥15起"
+    },
+    {
+      "id": "racknerd",
+      "name": "RackNerd",
+      "page": "/vps/racknerd.html",
+      "affLink": "https://my.racknerd.com/aff.php?aff=19100",
+      "category": "海外厂商",
+      "monthlyPrice": "$0.88/年付"
+    },
+    {
+      "id": "sixtynet",
+      "name": "六六云",
+      "page": "/vps/sixtynet.html",
+      "affLink": "https://sixtynet.net/aff.php?aff=228",
+      "category": "CN2 GIA",
+      "monthlyPrice": "¥45起"
+    },
+    {
+      "id": "aliyun",
+      "name": "阿里云",
+      "page": "/vps/aliyun.html",
+      "affLink": "https://www.aliyun.com/benefit?userCode=nwy5ygif",
+      "category": "国内厂商",
+      "monthlyPrice": "¥38/年"
+    },
+    {
+      "id": "tencent",
+      "name": "腾讯云",
+      "page": "https://curl.qcloud.com/M67H6tco",
+      "affLink": "https://curl.qcloud.com/M67H6tco",
+      "category": "国内厂商",
+      "monthlyPrice": "¥38/年"
+    },
+    {
+      "id": "cloudcone",
+      "name": "CloudCone",
+      "page": "https://app.cloudcone.com/?ref=14080",
+      "affLink": "https://app.cloudcone.com/?ref=14080",
+      "category": "海外厂商",
+      "monthlyPrice": "$0.87/年付"
+    },
+    {
+      "id": "vultr",
+      "name": "Vultr",
+      "page": "https://www.vultr.com/?ref=8718695",
+      "affLink": "https://www.vultr.com/?ref=8718695",
+      "category": "海外厂商",
+      "monthlyPrice": "$2.5/月起"
+    },
+    {
+      "id": "ucloud",
+      "name": "优刻得",
+      "page": "https://www.ucloud.cn/?cps_code=1MYqVRK0whWEXzDFYQ5CuB",
+      "affLink": "https://www.ucloud.cn/?cps_code=1MYqVRK0whWEXzDFY5CuB",
+      "category": "国内厂商",
+      "monthlyPrice": "¥50/月起"
+    },
+    {
+      "id": "yuntoo",
+      "name": "云途",
+      "page": "https://cloud.yt.net/?ref=14058",
+      "affLink": "https://cloud.yt.net/?ref=14058",
+      "category": "CN2 GIA",
+      "monthlyPrice": "¥30/月起"
+    },
+    {
+      "id": "gomami",
+      "name": "狗妈",
+      "page": "https://gomami.io/aff.php?aff=383",
+      "affLink": "https://gomami.io/aff.php?aff=383",
+      "category": "海外厂商",
+      "monthlyPrice": "$"
+    },
+    {
+      "id": "heyun",
+      "name": "核云",
+      "page": "https://www.heyunidc.cn/aff/XUCQTALD",
+      "affLink": "https://www.heyunidc.cn/aff/XUCQTALD",
+      "category": "国内厂商",
+      "monthlyPrice": "¥"
+    },
+    {
+      "id": "buda",
+      "name": "不大云",
+      "page": "https://www.ipxr.cn/aff/OZYOCWBP",
+      "affLink": "https://www.ipxr.cn/aff/OZYOCWBP",
+      "category": "海外厂商",
+      "monthlyPrice": "¥"
+    },
+    {
+      "id": "lightcone",
+      "name": "光锥云",
+      "page": "https://www.lightcone.hk/aff/KMECMVNZ",
+      "affLink": "https://www.lightcone.hk/aff/KMECMVNZ",
+      "category": "CN2 GIA",
+      "monthlyPrice": "¥"
+    },
+    {
+      "id": "vipcloud",
+      "name": "VipCloud",
+      "page": "https://cloud.vipcloud.cc/recommend/De1THIOI5rt5",
+      "affLink": "https://cloud.vipcloud.cc/recommend/De1THIOI5rt5",
+      "category": "海外厂商",
+      "monthlyPrice": "¥"
+    },
+    {
+      "id": "acckcloud",
+      "name": "AcckCloud",
+      "page": "https://acck.io/register?aff_code=b7c4cae8-3ffd-42f8-9128-b4abed9ef7a0",
+      "affLink": "https://acck.io/register?aff_code=b7c4cae8-3ffd-42f8-9128-b4abed9ef7a0",
+      "category": "海外厂商",
+      "monthlyPrice": "$"
+    }
+  ],
+  "trafficStats": {
+    "note": "需要接入Cloudflare Web Analytics后才能获取数据"
+  }
+}
