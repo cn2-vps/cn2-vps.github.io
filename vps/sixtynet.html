@@ -142,6 +142,8 @@
         }
     </style>
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "PLACEHOLDER_TOKEN"}'></script>
+    <!-- Umami 统计 -->
+    <script defer src="https://umami.acc-api.top/script.js" data-website-id="d8b36cca-377c-4047-8659-5f123960eee0"></script>
 </head>
 <body>
     <header>
@@ -331,7 +333,7 @@
             </ul>
 
             <p style="text-align: center; margin: 30px 0;">
-                <a href="https://sixtynet.net/aff.php?aff=228" class="btn-primary" target="_blank">去六六云官网 →</a>
+                <a href="https://sixtynet.net/aff.php?aff=228" class="btn-primary" target="_blank" onclick="umami.track('aff_click', { vendor: 'sixtynet', position: 'detail_page' })">去六六云官网 →</a>
             </p>
 
             <p class="aff-notice">
