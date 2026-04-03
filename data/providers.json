@@ -1,52 +1,77 @@
 {
   "site": "中国优化VPS导航",
   "baseUrl": "https://cn2-vps.github.io",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "createdAt": "2026-03-27",
+  "updatedAt": "2026-04-03",
   "providers": [
+    {
+      "id": "yuntoo",
+      "name": "云途",
+      "features": "国内主机商，专注香港/美国CN2优化线路",
+      "page": "https://cloud.yt.net/?ref=14058",
+      "affLink": "https://cloud.yt.net/?ref=14058",
+      "category": "CN2 GIA",
+      "monthlyPrice": "¥30/月起"
+    },
     {
       "id": "rainyun",
       "name": "雨云",
+      "features": "国产云服务商，自研独立面板，从CDN业务起家，性价比突出",
       "page": "/vps/rainyun.html",
       "affLink": "https://www.rainyun.com/2026off_",
       "category": "国内厂商",
-      "monthlyPrice": "¥15起"
+      "monthlyPrice": "¥15/月起"
+    },
+    {
+      "id": "gomami",
+      "name": "狗妈",
+      "features": "国人商家，专注美西优化线路，提供大带宽方案",
+      "page": "https://gomami.io/aff.php?aff=383",
+      "affLink": "https://gomami.io/aff.php?aff=383",
+      "category": "海外厂商",
+      "monthlyPrice": "$5/月起"
+    },
+    {
+      "id": "heyun",
+      "name": "核云",
+      "features": "国内云服务商，提供香港/美国CN2 GIA等优化线路",
+      "page": "https://www.heyunidc.cn/aff/XUCQTALD",
+      "affLink": "https://www.heyunidc.cn/aff/XUCQTALD",
+      "category": "国内厂商",
+      "monthlyPrice": "¥25/月起"
+    },
+    {
+      "id": "buda",
+      "name": "不大云",
+      "features": "香港主机商，专注亚太优化线路，适合跨境业务",
+      "page": "https://www.ipxr.cn/aff/OZYOCWBP",
+      "affLink": "https://www.ipxr.cn/aff/OZYOCWBP",
+      "category": "海外厂商",
+      "monthlyPrice": "¥20/月起"
+    },
+    {
+      "id": "lightcone",
+      "name": "光锥云",
+      "features": "香港本土商家，CN2/CMI多线优化，免备案建站优选",
+      "page": "https://www.lightcone.hk/aff/KMECMVNZ",
+      "affLink": "https://www.lightcone.hk/aff/KMECMVNZ",
+      "category": "CN2 GIA",
+      "monthlyPrice": "¥35/月起"
     },
     {
       "id": "racknerd",
       "name": "RackNerd",
+      "features": "美国便宜VPS代表，年付10美元起，洛杉矶/圣何塞多机房",
       "page": "/vps/racknerd.html",
       "affLink": "https://my.racknerd.com/aff.php?aff=19100",
       "category": "海外厂商",
       "monthlyPrice": "$0.88/年付"
     },
     {
-      "id": "sixtynet",
-      "name": "六六云",
-      "page": "/vps/sixtynet.html",
-      "affLink": "https://sixtynet.net/aff.php?aff=228",
-      "category": "CN2 GIA",
-      "monthlyPrice": "¥45起"
-    },
-    {
-      "id": "aliyun",
-      "name": "阿里云",
-      "page": "/vps/aliyun.html",
-      "affLink": "https://www.aliyun.com/benefit?userCode=nwy5ygif",
-      "category": "国内厂商",
-      "monthlyPrice": "¥38/年"
-    },
-    {
-      "id": "tencent",
-      "name": "腾讯云",
-      "page": "https://curl.qcloud.com/M67H6tco",
-      "affLink": "https://curl.qcloud.com/M67H6tco",
-      "category": "国内厂商",
-      "monthlyPrice": "¥38/年"
-    },
-    {
       "id": "cloudcone",
       "name": "CloudCone",
+      "features": "洛杉矶MC机房，按小时计费，电信CN2/联通AS9929线路",
       "page": "https://app.cloudcone.com/?ref=14080",
       "affLink": "https://app.cloudcone.com/?ref=14080",
       "category": "海外厂商",
@@ -55,74 +80,65 @@
     {
       "id": "vultr",
       "name": "Vultr",
+      "features": "全球30+数据中心，按小时计费，日本/新加坡/洛杉矶可选",
       "page": "https://www.vultr.com/?ref=8718695",
       "affLink": "https://www.vultr.com/?ref=8718695",
       "category": "海外厂商",
       "monthlyPrice": "$2.5/月起"
     },
     {
+      "id": "aliyun",
+      "name": "阿里云",
+      "features": "国内头部云厂商，轻量应用服务器一键部署，200M带宽",
+      "page": "/vps/aliyun.html",
+      "affLink": "https://www.aliyun.com/benefit?userCode=nwy5ygif",
+      "category": "国内厂商",
+      "monthlyPrice": "¥38/年"
+    },
+    {
+      "id": "tencent",
+      "name": "腾讯云",
+      "features": "大厂出品，轻量云服务器Lighthouse，BGP多线网络",
+      "page": "https://curl.qcloud.com/M67H6tco",
+      "affLink": "https://curl.qcloud.com/M67H6tco",
+      "category": "国内厂商",
+      "monthlyPrice": "¥38/年"
+    },
+    {
       "id": "ucloud",
       "name": "优刻得",
+      "features": "科创板上市云商，轻量云主机，跨境电商/IPLC专线方案",
       "page": "https://www.ucloud.cn/?cps_code=1MYqVRK0whWEXzDFYQ5CuB",
-      "affLink": "https://www.ucloud.cn/?cps_code=1MYqVRK0whWEXzDFY5CuB",
+      "affLink": "https://www.ucloud.cn/?cps_code=1MYqVRK0whWEXzDFYQ5CuB",
       "category": "国内厂商",
       "monthlyPrice": "¥50/月起"
     },
     {
-      "id": "yuntoo",
-      "name": "云途",
-      "page": "https://cloud.yt.net/?ref=14058",
-      "affLink": "https://cloud.yt.net/?ref=14058",
+      "id": "sixtynet",
+      "name": "六六云",
+      "features": "专注原生IP，双ISP住宅属性，CN2/9929/CMI多线优化",
+      "page": "/vps/sixtynet.html",
+      "affLink": "https://sixtynet.net/aff.php?aff=228",
       "category": "CN2 GIA",
-      "monthlyPrice": "¥30/月起"
-    },
-    {
-      "id": "gomami",
-      "name": "狗妈",
-      "page": "https://gomami.io/aff.php?aff=383",
-      "affLink": "https://gomami.io/aff.php?aff=383",
-      "category": "海外厂商",
-      "monthlyPrice": "$"
-    },
-    {
-      "id": "heyun",
-      "name": "核云",
-      "page": "https://www.heyunidc.cn/aff/XUCQTALD",
-      "affLink": "https://www.heyunidc.cn/aff/XUCQTALD",
-      "category": "国内厂商",
-      "monthlyPrice": "¥"
-    },
-    {
-      "id": "buda",
-      "name": "不大云",
-      "page": "https://www.ipxr.cn/aff/OZYOCWBP",
-      "affLink": "https://www.ipxr.cn/aff/OZYOCWBP",
-      "category": "海外厂商",
-      "monthlyPrice": "¥"
-    },
-    {
-      "id": "lightcone",
-      "name": "光锥云",
-      "page": "https://www.lightcone.hk/aff/KMECMVNZ",
-      "affLink": "https://www.lightcone.hk/aff/KMECMVNZ",
-      "category": "CN2 GIA",
-      "monthlyPrice": "¥"
+      "monthlyPrice": "¥45/月起"
     },
     {
       "id": "vipcloud",
       "name": "VipCloud",
+      "features": "香港/洛杉矶双节点，CN2 GIA/9929/CMIN2三网优化",
       "page": "https://cloud.vipcloud.cc/recommend/De1THIOI5rt5",
       "affLink": "https://cloud.vipcloud.cc/recommend/De1THIOI5rt5",
-      "category": "海外厂商",
-      "monthlyPrice": "¥"
+      "category": "CN2 GIA",
+      "monthlyPrice": "¥5.8/月起"
     },
     {
       "id": "acckcloud",
       "name": "AcckCloud",
+      "features": "低价大带宽，流媒体解锁专长，香港/日本/美国多节点",
       "page": "https://acck.io/register?aff_code=b7c4cae8-3ffd-42f8-9128-b4abed9ef7a0",
       "affLink": "https://acck.io/register?aff_code=b7c4cae8-3ffd-42f8-9128-b4abed9ef7a0",
       "category": "海外厂商",
-      "monthlyPrice": "$"
+      "monthlyPrice": "¥7.3/月起"
     }
   ],
   "trafficStats": {
